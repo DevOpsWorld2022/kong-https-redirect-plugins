@@ -1,0 +1,11 @@
+apiVersion: configuration.konghq.com/v1
+config:
+  enabled: true
+  redirection_status_code: 301
+kind: KongPlugin
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: kong
+  name: myplugin
+  namespace: default
+plugin: myplugin
