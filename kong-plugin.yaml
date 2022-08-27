@@ -6,6 +6,6 @@ kind: KongPlugin
 metadata:
   annotations:
     kubernetes.io/ingress.class: kong
-  name: myplugin
+  name: http-redirection
   namespace: default
-plugin: myplugin
+plugin: http-redirection
